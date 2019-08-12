@@ -2,7 +2,13 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/demo">栗子</router-link> |
+      <router-link to="/weather">天气</router-link> |
+      <router-link to="/base64">Base64</router-link> |
+      <router-link to="/hash">hash</router-link> |
+      <router-link to="/compress">compress</router-link> |
+      <router-link to="/student_index">学生列表</router-link>
     </div>
     <router-view/>
   </div>
